@@ -141,3 +141,56 @@
     position: absolute;
     right: 0;
 }
+
+/* Cool colors */
+@-webkit-keyframes sunshine {
+  from { background-color: #ffcc00; -webkit-box-shadow: 0 0 9px #FFF; }
+  50% { background-color: #FF9900; -webkit-box-shadow: 0 0 18px #ffcc33; }
+  to { background-color: #ffcc00; -webkit-box-shadow: 0 0 9px #FFF; }
+}
+@-webkit-keyframes bluePulse {
+  from { background-color: #0266C8; -webkit-box-shadow: 0 0 9px #FFF; }
+  50% { background-color: #3366ff; -webkit-box-shadow: 0 0 18px #3366ff; }
+  to { background-color: #0266C8; -webkit-box-shadow: 0 0 9px #FFF; }
+}
+@-webkit-keyframes redPulse {
+  from { background-color: #F90101; -webkit-box-shadow: 0 0 9px #FFF; }
+  50% { background-color: #ff3333; -webkit-box-shadow: 0 0 18px #ff3333; }
+  to { background-color: #F90101; -webkit-box-shadow: 0 0 9px #FFF; }
+}
+@-webkit-keyframes yellowPulse {
+  from { background-color: #F2B50F; -webkit-box-shadow: 0 0 9px #FFF; }
+  50% { background-color: #ffcc33; -webkit-box-shadow: 0 0 18px #ffcc33; }
+  to { background-color: #F2B50F; -webkit-box-shadow: 0 0 9px #FFF; }
+}
+@-webkit-keyframes greenPulse {
+  from { background-color: #00933B; -webkit-box-shadow: 0 0 9px #FFF; }
+  50% { background-color: #00cc33; -webkit-box-shadow: 0 0 18px #00cc33; }
+  to { background-color: #00933B; -webkit-box-shadow: 0 0 9px #FFF; }
+}
+
+.sunlight {
+  -webkit-animation-name: sunshine;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+}
+.blue-light {
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+}
+.red-light {
+  -webkit-animation-name: redPulse;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+}
+.yellow-light {
+  -webkit-animation-name: yellowPulse;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+}
+.green-light {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+}
