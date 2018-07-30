@@ -1,0 +1,64 @@
+html, body {
+  box-sizing: border-box;
+  font-size: 1em;
+  height: 100%;
+  padding: 2.5% 0;
+}
+
+div.container {
+  height: 100%;
+  width: 100%;
+  display: table;
+  .inner {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+  }
+}
+
+a {
+  color: $blackish;
+  text-decoration: none;
+  &:hover {
+    color: $blue;
+  }
+}
+
+div.info {
+  display: table;
+  margin: auto auto 1em auto;
+  width: 22em;
+  text-align: left;
+
+  div.code {
+    display: table-cell;
+    text-align: left;
+    color: $red;
+
+    a {
+      color: $red;
+      text-decoration: bold;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+div.icons {
+  margin: auto;
+  text-align:center;
+  a {
+    color: $grey-dark;
+    font-size: 2em;
+    margin: 0 0.5em 0 0.5em;
+    &:hover {
+      color: $green;
+    }
+  }
+}

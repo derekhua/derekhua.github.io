@@ -1,0 +1,47 @@
+#homepage {
+  color: $blackish;
+}
+
+#name {
+  font-size: 3em;
+}
+
+div.icons {
+  a.github-logo {
+    &:hover {
+      color: $github-gray;
+    }
+  }
+}
+
+div.icons {
+  a.instagram-logo {
+    &:hover {
+      color: $insta-violet;
+    }
+  }
+}
+
+div.icons {
+  a.facebook-logo {
+    &:hover {
+      color: $facebook-blue;
+    }
+  }
+}
+
+div.icons {
+  a.linkedin-logo {
+    &:hover {
+      color: $linkedin-blue;
+    }
+  }
+}
+
+div.icons {
+  a.mail-logo {
+    &:hover {
+      color: $gmail-red;
+    }
+  }
+}

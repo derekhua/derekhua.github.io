@@ -1,0 +1,14 @@
+// typography
+$main-font: 'Roboto Mono', sans-serif;
+$label-font: 'Permanent Marker', sans-serif;
+
+body {
+  font-family: $main-font;
+}
+
+h1, h2, h3, h4, h5 {
+	color: $grey-super-dark;
+  font-family: $label-font;
+  font-weight: normal;
+  margin: 0;
+}
