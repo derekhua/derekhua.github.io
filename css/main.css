@@ -435,7 +435,7 @@ a:hover {
 div.info {
   display: table;
   margin: auto auto 1em auto;
-  width: 22em;
+  width: 19.5em;
   text-align: left;
 }
 div.info div.code {
@@ -449,6 +449,9 @@ div.info div.code a {
 }
 div.info div.code a:hover {
   color: #0C2733;
+}
+div.info div.code i {
+  padding: 0.25em;
 }
 div.info p {
   padding: 0;
